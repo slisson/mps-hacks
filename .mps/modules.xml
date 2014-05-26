@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.dynsmodel/de.slisson.mps.dynsmodel.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.slisson.mps.reflection/de.slisson.mps.reflection.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.slisson.mps.reflection.runtime/de.slisson.mps.reflection.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.slisson.mps.reflection.sandbox/de.slisson.mps.reflection.sandbox.msd" folder="" />
