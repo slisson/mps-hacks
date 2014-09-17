@@ -34,5 +34,34 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1204053956946" resolveInfo="IMethodCall" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8520162698482806193" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ReflectionStaticMethodCall" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068499141036" resolveInfo="BaseMethodCall" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1144433194310" nodeInfo="ig">
+      <property name="role" nameId="tpce.1071599776563" value="classConcept" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1081236769987" nodeInfo="ig">
+      <property name="role" nameId="tpce.1071599776563" value="staticMethodDeclaration" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tpee.1068499141037" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1081236700938" resolveInfo="StaticMethodDeclaration" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8520162698483655274" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ReflectionStaticFieldReference" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068498886296" resolveInfo="VariableReference" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1144433057691" nodeInfo="ig">
+      <property name="role" nameId="tpce.1071599776563" value="classifier" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1070568178160" nodeInfo="ig">
+      <property name="role" nameId="tpce.1071599776563" value="staticFieldDeclaration" />
+      <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tpee.1068581517664" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1070462154015" resolveInfo="StaticFieldDeclaration" />
+    </node>
+  </root>
 </model>
 

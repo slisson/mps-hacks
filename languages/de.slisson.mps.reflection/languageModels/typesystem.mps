@@ -8,6 +8,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="oiz3" modelUID="r:879596e5-224b-4613-97ab-fbcbd7050732(de.slisson.mps.reflection.structure)" version="-1" implicit="yes" />
+  <import index="tpeh" modelUID="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" version="-1" implicit="yes" />
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8473566765276388016" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_ReflectionFieldAccess" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8473566765276388017" nodeInfo="sn">
@@ -39,6 +40,24 @@
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8473566765276388019" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="reflectionFieldAccess" />
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="oiz3.8473566765275063380" resolveInfo="ReflectionFieldAccess" />
+    </node>
+  </root>
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8520162698483157588" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="typeof_ReflectionStaticMethodCall" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="8520162698483157589" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5977092449933636066" nodeInfo="nn">
+        <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5977092449933642305" nodeInfo="nn">
+          <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="tpeh.5977092449931152541" resolveInfo="TypeVariableMatchUtil" />
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tpeh.5977092449933508151" resolveInfo="calculateTypesForStaticMethod" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="8520162698483157777" nodeInfo="nn">
+            <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="8520162698483157591" resolveInfo="reflectionStaticMethodCall" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8520162698483157591" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="reflectionStaticMethodCall" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="oiz3.8520162698482806193" resolveInfo="ReflectionStaticMethodCall" />
     </node>
   </root>
 </model>
