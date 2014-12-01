@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.slisson.mps.reflection.runtime" uuid="7037b32c-9607-4f8e-81bd-1f028a4c117b" compileInMPS="true">
+<solution name="de.slisson.mps.reflection.runtime" uuid="7037b32c-9607-4f8e-81bd-1f028a4c117b" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
