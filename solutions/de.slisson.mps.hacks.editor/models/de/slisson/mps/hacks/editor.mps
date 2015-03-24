@@ -556,6 +556,41 @@
                                     </node>
                                     <node concept="1bVj0M" id="4WvEEB$nVaF" role="37wK5m">
                                       <node concept="3clFbS" id="4WvEEB$nVaG" role="1bW5cS">
+                                        <node concept="3cpWs8" id="59Y55NazUIi" role="3cqZAp">
+                                          <node concept="3cpWsn" id="59Y55NazUIj" role="3cpWs9">
+                                            <property role="TrG5h" value="cellFactory" />
+                                            <node concept="3uibUv" id="59Y55NazUIk" role="1tU5fm">
+                                              <ref role="3uigEE" to="nu8v:~EditorCellFactory" resolve="EditorCellFactory" />
+                                            </node>
+                                            <node concept="2OqwBi" id="59Y55NazUIl" role="33vP2m">
+                                              <node concept="liA8E" id="59Y55NazUIm" role="2OqNvi">
+                                                <ref role="37wK5l" to="srng:~EditorContext.getCellFactory():jetbrains.mps.openapi.editor.cells.EditorCellFactory" resolve="getCellFactory" />
+                                              </node>
+                                              <node concept="2OqwBi" id="59Y55NazUIn" role="2Oq$k0">
+                                                <node concept="37vLTw" id="59Y55NazUIo" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="4WvEEB$nGXE" resolve="editorComponent" />
+                                                </node>
+                                                <node concept="liA8E" id="59Y55NazUIp" role="2OqNvi">
+                                                  <ref role="37wK5l" to="srng:~EditorComponent.getEditorContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getEditorContext" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3clFbF" id="59Y55NazWys" role="3cqZAp">
+                                          <node concept="2OqwBi" id="59Y55NazWHe" role="3clFbG">
+                                            <node concept="37vLTw" id="59Y55NazWyq" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="59Y55NazUIj" resolve="cellFactory" />
+                                            </node>
+                                            <node concept="liA8E" id="59Y55NazWVp" role="2OqNvi">
+                                              <ref role="37wK5l" to="nu8v:~EditorCellFactory.addCellContextHints(java.lang.String...):void" resolve="addCellContextHints" />
+                                              <node concept="37vLTw" id="59Y55NazXcf" role="37wK5m">
+                                                <ref role="3cqZAo" node="4WvEEB$nVb5" resolve="contextHints" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3clFbH" id="59Y55NazUtX" role="3cqZAp" />
                                         <node concept="3cpWs8" id="4WvEEB$nVaH" role="3cqZAp">
                                           <node concept="3cpWsn" id="4WvEEB$nVaI" role="3cpWs9">
                                             <property role="TrG5h" value="manager" />
