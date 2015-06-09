@@ -14,6 +14,7 @@
     <import index="msyo" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" />
     <import index="vsqj" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" />
     <import index="9lvj" ref="r:96ef99ad-4777-4e07-b5ac-713fe7c8396a(de.itemis.mps.nativelibs.structure)" />
+    <import index="42ru" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.module(MPS.Core/jetbrains.mps.module@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -30,6 +31,10 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
       </concept>
       <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
         <child id="1070534934091" name="type" index="10QFUM" />
@@ -222,16 +227,12 @@
           </node>
         </node>
         <node concept="3fqX7Q" id="6r4GR4a6z_P" role="3clFbw">
-          <node concept="2OqwBi" id="6r4GR4a6z_R" role="3fr31v">
-            <node concept="2YIFZM" id="6r4GR4a6z_S" role="2Oq$k0">
-              <ref role="1Pybhc" to="wqua:~ClassLoaderManager" resolve="ClassLoaderManager" />
-              <ref role="37wK5l" to="wqua:~ClassLoaderManager.getInstance():jetbrains.mps.classloading.ClassLoaderManager" resolve="getInstance" />
+          <node concept="2ZW3vV" id="7wXnfGE7iIE" role="3fr31v">
+            <node concept="3uibUv" id="7wXnfGE7iJh" role="2ZW6by">
+              <ref role="3uigEE" to="42ru:~ReloadableModule" resolve="ReloadableModule" />
             </node>
-            <node concept="liA8E" id="6r4GR4a6z_T" role="2OqNvi">
-              <ref role="37wK5l" to="wqua:~ClassLoaderManager.canLoad(org.jetbrains.mps.openapi.module.SModule):boolean" resolve="canLoad" />
-              <node concept="37vLTw" id="6r4GR4a6z_U" role="37wK5m">
-                <ref role="3cqZAo" node="6r4GR4a3Sv$" resolve="module" />
-              </node>
+            <node concept="37vLTw" id="7wXnfGE7iHH" role="2ZW6bz">
+              <ref role="3cqZAo" node="6r4GR4a3Sv$" resolve="module" />
             </node>
           </node>
         </node>
