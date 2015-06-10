@@ -677,25 +677,46 @@
                 <node concept="3uibUv" id="2H_mjOXrOPd" role="1tU5fm">
                   <ref role="3uigEE" to="e2lb:~Class" resolve="Class" />
                 </node>
-                <node concept="2OqwBi" id="7wXnfGE6QUW" role="33vP2m">
-                  <node concept="37vLTw" id="7wXnfGE6PWt" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7wXnfGE6MoI" resolve="reloadableModule" />
-                  </node>
-                  <node concept="liA8E" id="7wXnfGE6Rr9" role="2OqNvi">
-                    <ref role="37wK5l" to="42ru:~ReloadableModule.getOwnClass(java.lang.String):java.lang.Class" resolve="getOwnClass" />
-                    <node concept="3cpWs3" id="7wXnfGE6RJk" role="37wK5m">
-                      <node concept="2OqwBi" id="7wXnfGE6RJl" role="3uHU7B">
-                        <node concept="37vLTw" id="7wXnfGE6RJm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2H_mjOXrGMC" resolve="module" />
-                        </node>
-                        <node concept="liA8E" id="7wXnfGE6RJn" role="2OqNvi">
-                          <ref role="37wK5l" to="88zw:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
-                        </node>
+                <node concept="10Nm6u" id="2IAzKEcfoDu" role="33vP2m" />
+              </node>
+            </node>
+            <node concept="SfApY" id="2IAzKEcfg77" role="3cqZAp">
+              <node concept="3clFbS" id="2IAzKEcfg79" role="SfCbr">
+                <node concept="3clFbF" id="2IAzKEcfmft" role="3cqZAp">
+                  <node concept="37vLTI" id="2IAzKEcfmfv" role="3clFbG">
+                    <node concept="2OqwBi" id="7wXnfGE6QUW" role="37vLTx">
+                      <node concept="37vLTw" id="7wXnfGE6PWt" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7wXnfGE6MoI" resolve="reloadableModule" />
                       </node>
-                      <node concept="Xl_RD" id="7wXnfGE6RJo" role="3uHU7w">
-                        <property role="Xl_RC" value=".plugin.NativeLibraries" />
+                      <node concept="liA8E" id="7wXnfGE6Rr9" role="2OqNvi">
+                        <ref role="37wK5l" to="42ru:~ReloadableModule.getOwnClass(java.lang.String):java.lang.Class" resolve="getOwnClass" />
+                        <node concept="3cpWs3" id="7wXnfGE6RJk" role="37wK5m">
+                          <node concept="2OqwBi" id="7wXnfGE6RJl" role="3uHU7B">
+                            <node concept="37vLTw" id="7wXnfGE6RJm" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2H_mjOXrGMC" resolve="module" />
+                            </node>
+                            <node concept="liA8E" id="7wXnfGE6RJn" role="2OqNvi">
+                              <ref role="37wK5l" to="88zw:~SModule.getModuleName():java.lang.String" resolve="getModuleName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="7wXnfGE6RJo" role="3uHU7w">
+                            <property role="Xl_RC" value=".plugin.NativeLibraries" />
+                          </node>
+                        </node>
                       </node>
                     </node>
+                    <node concept="37vLTw" id="2IAzKEcfmfz" role="37vLTJ">
+                      <ref role="3cqZAo" node="2H_mjOXrOPi" resolve="descriptor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="TDmWw" id="2IAzKEcfg7a" role="TEbGg">
+                <node concept="3clFbS" id="2IAzKEcfg7c" role="TDEfX" />
+                <node concept="3cpWsn" id="2IAzKEcfg7e" role="TDEfY">
+                  <property role="TrG5h" value="ex" />
+                  <node concept="3uibUv" id="2IAzKEcfpOP" role="1tU5fm">
+                    <ref role="3uigEE" to="e2lb:~ClassNotFoundException" resolve="ClassNotFoundException" />
                   </node>
                 </node>
               </node>
