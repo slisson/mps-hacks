@@ -1,4 +1,1 @@
-mps-hacks
-=========
-
-all the dirty stuff hidden behind a shiny surface
+This project is now part of the mbeddr platform: http://mbeddr.com/platform.html
